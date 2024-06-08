@@ -11,8 +11,13 @@ distinction, it also becomes clear that we might need to delineate between progr
 tasks (development, modification, maintenance). The addition of time adds an important new dimension to programming. Cubes aren’t 
 squares, distance isn’t velocity. Software engineering isn’t programming.
 
+----------------------------------------------------------------------------------------------------------------------------------
 
+Vemos três diferenças críticas entre programação e engenharia de software: tempo, escala e as compensações em jogo. Em um projeto de engenharia de software, os engenheiros precisam estar mais preocupados com a passagem do tempo e com a eventual necessidade de mudanças. Numa organização de engenharia de software, precisamos de estar mais preocupados com a escala e a eficiência, tanto para o software que produzimos como para a organização que o produz. Finalmente, como engenheiros de software, somos solicitados a tomar decisões mais complexas com resultados de maior risco, muitas vezes baseados em estimativas imprecisas de tempo e crescimento.
 
+No Google, às vezes dizemos: “Engenharia de software é programação integrada ao longo do tempo”. A programação é certamente uma parte significativa da engenharia de software: afinal, a programação é como você gera um novo software. Se você aceitar essa distinção, também ficará claro que talvez seja necessário delinear entre tarefas de programação (desenvolvimento) e tarefas de engenharia de software (desenvolvimento, modificação, manutenção). A adição de tempo acrescenta uma nova dimensão importante à programação. Cubos não são quadrados, distância não é velocidade. Engenharia de software não é programação.
+
+----------------------------------------------------------------------------------------------------------------------------------
 
 Comentário: 
 
@@ -27,20 +32,12 @@ Engenharia de software = Programação + Tempo + Escala + Trade-offs
 desenvolvimento de um novo projeto.
 
 
-
 Exemplos de trade-off:
 
-1. Desempenho versus Manutenibilidade: muitas vezes, a otimização de desempenho de um sistema pode resultar em um código mais complexo 
-e difícil de manter. Por exemplo, ao usar algoritmos altamente eficientes, pode ser necessário sacrificar a legibilidade do código. 
-Esse trade-off é uma decisão entre o desempenho imediato do sistema e a facilidade de fazer alterações e correções no futuro.
+1. Desempenho versus Manutenibilidade: muitas vezes, a otimização de desempenho de um sistema pode resultar em um código mais complexo e difícil de manter. Por exemplo, ao usar algoritmos altamente eficientes, pode ser necessário sacrificar a legibilidade do código. Esse trade-off é uma decisão entre o desempenho imediato do sistema e a facilidade de fazer alterações e correções no futuro.
 
-2. Escalabilidade versus Custos: projetar um sistema para ser altamente escalável geralmente implica em investimentos significativos 
-em infraestrutura e tecnologias mais avançadas. No entanto, esses investimentos podem aumentar os custos iniciais do projeto. 
-Por outro lado, optar por uma abordagem mais simples pode reduzir os custos iniciais, mas pode resultar em problemas de escalabilidade 
-conforme o sistema cresce. Portanto, há um trade-off entre a capacidade de escalabilidade do sistema e os custos associados à sua implementação.
+2. Escalabilidade versus Custos: projetar um sistema para ser altamente escalável geralmente implica em investimentos significativos em infraestrutura e tecnologias mais avançadas. No entanto, esses investimentos podem aumentar os custos iniciais do projeto. Por outro lado, optar por uma abordagem mais simples pode reduzir os custos iniciais, mas pode resultar em problemas de escalabilidade conforme o sistema cresce. Portanto, há um trade-off entre a capacidade de escalabilidade do sistema e os custos associados à sua implementação.
 
-3. Funcionalidade versus Prazos: muitas vezes, os desenvolvedores enfrentam o desafio de equilibrar a quantidade de funcionalidades desejadas 
-em um sistema com os prazos de entrega do projeto. Adicionar mais funcionalidades pode tornar o produto mais atraente para os usuários, 
-mas também pode aumentar a complexidade do desenvolvimento e estender os prazos. Por outro lado, priorizar prazos apertados pode resultar 
-em um produto final com menos funcionalidades ou com possíveis falhas devido à pressa no desenvolvimento. Este é um trade-off entre a qualidade 
-e a quantidade de funcionalidades entregues dentro do prazo estipulado.
+3. Funcionalidade versus Prazos: muitas vezes, os desenvolvedores enfrentam o desafio de equilibrar a quantidade de funcionalidades desejadas em um sistema com os prazos de entrega do projeto. Adicionar mais funcionalidades pode tornar o produto mais atraente para os usuários, mas também pode aumentar a complexidade do desenvolvimento e estender os prazos. Por outro lado, priorizar prazos apertados pode resultar em um produto final com menos funcionalidades ou com possíveis falhas devido à pressa no desenvolvimento. Este é um trade-off entre a qualidade e a quantidade de funcionalidades entregues dentro do prazo estipulado.
+
+----------------------------------------------------------------------------------------------------------------------------------
